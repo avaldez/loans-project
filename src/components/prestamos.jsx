@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class prestamos extends Component {
-  render() {
-    return (
-      <div>prestamos</div>
-    )
-  }
+export default function prestamos() {
+  return (
+    <div>prestamos</div>
+  )
 }
+

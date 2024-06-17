@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class bancos extends Component {
-  render() {
-    return (
-      <div>bancos</div>
-    )
-  }
+export default function bancos() {
+  return (
+    <div>bancos</div>
+  )
 }
+

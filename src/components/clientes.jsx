@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class clientes extends Component {
-  render() {
-    return (
-      <div>clientes</div>
-    )
-  }
+export default function clientes() {
+  return (
+    <div>clientes</div>
+  )
 }
+
